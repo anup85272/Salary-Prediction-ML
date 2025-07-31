@@ -1,16 +1,9 @@
-Absolutely! Here's your `README.md` content in clean **Markdown format**, ready to copy-paste into your project:
-
----
-
-```markdown
-# 💼 Salary Prediction using Machine Learning
+💼 Salary Prediction using Machine Learning
 
 This project demonstrates how to predict salaries based on years of experience using two regression algorithms: **Linear Regression** and **Decision Tree Regression**. It also includes an interactive and professional **Streamlit dashboard** to test predictions live.
 
----
-
 ## 📂 Project Structure
-```
+
 
 Salary-Prediction-ML/
 ├── Salary\_Data.csv
@@ -19,7 +12,7 @@ Salary-Prediction-ML/
 ├── .gitignore
 ├── README.md
 
-## 📊 Features
+📊 Features
 
 - Predict salary from experience using ML models
 - Compare Linear vs Decision Tree Regression
@@ -27,7 +20,7 @@ Salary-Prediction-ML/
 - Visual regression graph
 - Styled professional dashboard layout
 
-## 🧪 Tech Stack
+🧪 Tech Stack
 
 - Python 3.x
 - Streamlit
@@ -36,10 +29,10 @@ Salary-Prediction-ML/
 - Matplotlib
 
 ### 1. Clone this repo
-```bash
+bash
 git clone https://github.com/your-username/Salary-Prediction-ML.git
 cd Salary-Prediction-ML
-````
+
 
 ### 2. Create virtual environment (optional)
 
@@ -50,13 +43,13 @@ venv\Scripts\activate
 # macOS/Linux
 source venv/bin/activate
 
-### 3. Install dependencies
+## 3. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Run Streamlit App
+## 4. Run Streamlit App
 
 ```bash
 streamlit run streamlit_app.py
